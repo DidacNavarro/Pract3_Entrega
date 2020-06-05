@@ -21,9 +21,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import cat.urv.deim.asm.p2.common.ui.gallery.GalleryFragment;
-import cat.urv.deim.asm.p2.common.ui.gallery.GalleryViewModel;
-import cat.urv.deim.asm.p3.shared.NewsFragment;
+import cat.urv.deim.asm.p3.shared.Faqs;
+
 
 public class MainActivity extends AppCompatActivity  {
 
@@ -36,20 +35,14 @@ public class MainActivity extends AppCompatActivity  {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
+
         final DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_news, R.id.nav_gallery, R.id.nav_slideshow)
+                R.id.nav_news, R.id.nav_articles, R.id.nav_events,R.id.nav_calendar,R.id.nav_settings)
                 .setDrawerLayout(drawer)
                 .build();
          navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -80,11 +73,14 @@ public class MainActivity extends AppCompatActivity  {
 
                     case R.id.nav_gallery:
                         Toast.makeText(getApplicationContext(), "gallery Selected", Toast.LENGTH_LONG).show();
-                        //FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-                        //fragmentTransaction.replace(R.id.nav_host_fragment,new GalleryFragment());
                         navController.popBackStack(R.id.mobile_navigation,true);
                         Navigation.findNavController(MainActivity.this,R.id.nav_host_fragment).navigate(R.id.nav_gallery);
 
+                        break;
+                    case R.id.nav_faqs:
+                        Toast.makeText(getApplicationContext(), "FAQS Selected", Toast.LENGTH_LONG).show();
+                        Intent intent2 = new Intent(MainActivity.this, Faqs.class);
+                        startActivity(intent2);
                         break;
 
 

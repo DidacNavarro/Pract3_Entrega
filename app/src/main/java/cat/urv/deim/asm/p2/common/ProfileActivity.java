@@ -20,7 +20,7 @@ public class ProfileActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem menuItem) {
         if(menuItem.getItemId() == R.id.nav_news){
-        finish();
+        //finish();
     }
 
         return super.onOptionsItemSelected(menuItem);

@@ -9,18 +9,33 @@
             android:icon="@drawable/ic_bookmark_black_24dp"
             android:title="News" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_articles"
+            android:icon="@drawable/ic_articles_black_24dp"
+            android:title="Articles" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_events_24dp"
+            android:title="@string/menu_events" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_calendar_black_24dp"
+            android:title="@string/menu_calendar" />
     </group>
     <group android:id="@+id/group_menu">
         <item android:id="@+id/nav_profile"
             android:icon="@drawable/ic_person_black_24dp"
             android:title="Profile" />
+
+    </group>
+    <group >
+        <item
+            android:id="@+id/nav_faqs"
+            android:icon="@drawable/ic_faqs_24dp"
+            android:title="FAQS" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
 
     </group>
 </menu>
