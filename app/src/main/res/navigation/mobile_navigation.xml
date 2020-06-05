@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_news">
+
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="cat.urv.deim.asm.p3.shared.NewsFragment"
+        android:label="@string/menu_news"
+        tools:layout="@layout/news_fragment">
+
+        <action
+            android:id="@+id/action_NewsFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="cat.urv.deim.asm.p3.shared.NewsFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/news_fragment">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_NewsFragment"
+            app:destination="@id/nav_news" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="cat.urv.deim.asm.p2.common.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="cat.urv.deim.asm.p2.common.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
