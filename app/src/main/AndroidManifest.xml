@@ -9,18 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="cat.urv.deim.asm.p3.shared.ListaRespuestasFaqs"></activity>
-        <activity android:name="cat.urv.deim.asm.p3.shared.ListaPreguntasFaqs" />
-        <activity android:name="cat.urv.deim.asm.p3.shared.Faqs" />
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:label="@string/title_activity_login">
+        <activity android:name=".Help3"></activity>
+        <activity android:name=".Help2" />
+        <activity android:name=".Help1" />
+        <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="cat.urv.deim.asm.p3.shared.ListaRespuestasFaqs" />
+        <activity android:name="cat.urv.deim.asm.p3.shared.ListaPreguntasFaqs" />
+        <activity android:name="cat.urv.deim.asm.p3.shared.Faqs" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
         <activity android:name=".ProfileActivity" />
         <activity
             android:name=".MainActivity"
