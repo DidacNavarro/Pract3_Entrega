@@ -21,6 +21,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import cat.urv.deim.asm.p2.common.ui.login.AnonymProfile;
 import cat.urv.deim.asm.p3.shared.Faqs;
 
 
@@ -60,7 +61,7 @@ public class MainActivity extends AppCompatActivity  {
 
                     case R.id.nav_profile:
                         Toast.makeText(getApplicationContext(), "Profile Selected", Toast.LENGTH_LONG).show();
-                        Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
+                        Intent intent = new Intent(MainActivity.this, AnonymProfile.class);
                         startActivity(intent);
                         break;
 

@@ -12,6 +12,22 @@
     <string name="menu_events">Events</string>
     <string name="menu_calendar">Calendar</string>
 
+    <string name="UPScantSign">UPS... couldn\'t Sign In</string>
+    <string name="noMatch">Your username and password doesn\'t match.</string>
+    <string name="plsAgain">Please try again.</string>
+    <string name="buttonTryAgain">TRY AGAIN</string>
+
+    <string name="bookmarks">Bookmarks</string>
+    <string name="favorites">Favorites</string>
+    <string name="be_in_touch">Be in touch</string>
+    <string name="skip_tutorial"><![CDATA[Skip Tutorial ->]]></string>
+    <string name="networking">Networking</string>
+    <string name="learn">Learn</string>
+    <string name="anonymous_user">ANONYMOUS USER</string>
+    <string name="signIn">SING IN</string>
+    <string name="dev_community">Dev Community</string>
+    <string name="continueAnonim">CONTINUE ANONYMOUSLY</string>
+
 
     <string name="home_second">Home Second</string>
     <string name="menu_news">News</string>
