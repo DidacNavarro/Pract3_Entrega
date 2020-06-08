@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ErrorLogin">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="192dp"
+        android:layout_height="196dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121"
+        app:srcCompat="@drawable/error_screen_logo"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="287dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="392dp"
+        android:paddingStart="70dp"
+        android:text="@string/UPScantSign"
+        android:textColor="@color/gris"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="400dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="340dp"
+        android:paddingStart="30dp"
+        android:text="@string/noMatch"
+        android:textColor="@color/gris"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        tools:ignore="DuplicateIds,RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="400dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="312dp"
+        android:paddingStart="120dp"
+        android:text="@string/plsAgain"
+        android:textColor="@color/gris"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/buttonTryAgain"
+        android:layout_width="152dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="213dp"
+        android:layout_marginBottom="63dp"
+        android:background="@color/colorFondo"
+        android:text="@string/buttonTryAgain"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

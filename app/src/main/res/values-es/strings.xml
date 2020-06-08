@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Pract3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_events">Eventos</string>
+    <string name="menu_calendar">Calendario</string>
+
+    <string name="UPScantSign">UPS... no se ha podido registrar</string>
+    <string name="noMatch">Tu nombre de usuario y contraseña no son correctos.</string>
+    <string name="plsAgain">Por favor, reintenta.</string>
+    <string name="buttonTryAgain">Reintentar</string>
+
+    <string name="bookmarks">Bookmarks</string>
+    <string name="favorites">Favorites</string>
+    <string name="be_in_touch">Esté en contacto</string>
+    <string name="skip_tutorial"><![CDATA[Saltar tutorial ->]]></string>
+    <string name="networking">Redes</string>
+    <string name="learn">Aprende</string>
+    <string name="anonymous_user">ANONYMOUS USER</string>
+    <string name="signIn">SING IN</string>
+    <string name="dev_community">Dev Community</string>
+    <string name="continueAnonim">CONTINUAR ANONIMAMENTE</string>
+
+
+    <string name="home_second">Home Second</string>
+    <string name="menu_news">Noticias</string>
+    <string name="title_activity_login">Registro</string>
+    <string name="prompt_email">Correo</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Fallo registro"</string>
+
+    <string name="sandra_adams_email_com">sandra.adams@email.com</string>
+    <string name="email">Correo</string>
+    <string name="sandra_adams">Sandra Adams</string>
+    <string name="todo">TODO</string>
+    <string name="news">Noticias</string>
+    <string name="articles">Articulos</string>
+    <string name="profile">Perfil</string>
+    <string name="faqs">FAQS</string>
+    <string name="settings">configuracion</string>
+</resources>
