@@ -12,7 +12,7 @@
     <string name="menu_events">Events</string>
     <string name="menu_calendar">Calendar</string>
 
-    <string name="UPScantSign">UPS... couldn\'t Sign In</string>
+    <string name="UPScantSign">UPS… couldn\'t Sign In</string>
     <string name="noMatch">Your username and password doesn\'t match.</string>
     <string name="plsAgain">Please try again.</string>
     <string name="buttonTryAgain">TRY AGAIN</string>
@@ -40,4 +40,14 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+
+    <string name="sandra_adams_email_com">sandra.adams@email.com</string>
+    <string name="email">Email</string>
+    <string name="sandra_adams">Sandra Adams</string>
+    <string name="todo">TODO</string>
+    <string name="news">News</string>
+    <string name="articles">Articles</string>
+    <string name="profile">Profile</string>
+    <string name="faqs">FAQS</string>
+    <string name="settings">Settings</string>
 </resources>

@@ -11,7 +11,7 @@ public class NewsDetailActivity extends ViewModel {
 
     public NewsDetailActivity() {
         mText = new MutableLiveData<>();
-        mText.setValue("This News fragment");
+        mText.setValue("");
     }
 
     public LiveData<String> getText() {

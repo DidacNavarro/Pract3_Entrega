@@ -72,12 +72,6 @@ public class MainActivity extends AppCompatActivity  {
 
                         break;
 
-                    case R.id.nav_gallery:
-                        Toast.makeText(getApplicationContext(), "gallery Selected", Toast.LENGTH_LONG).show();
-                        navController.popBackStack(R.id.mobile_navigation,true);
-                        Navigation.findNavController(MainActivity.this,R.id.nav_host_fragment).navigate(R.id.nav_gallery);
-
-                        break;
                     case R.id.nav_faqs:
                         Toast.makeText(getApplicationContext(), "FAQS Selected", Toast.LENGTH_LONG).show();
                         Intent intent2 = new Intent(MainActivity.this, Faqs.class);

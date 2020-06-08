@@ -20,6 +20,10 @@ public class NewsFragment extends Fragment {
 
     private NewsDetailActivity mViewModel;
 
+    public static NewsFragment newInstance() {
+        return new NewsFragment();
+    }
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         mViewModel =
